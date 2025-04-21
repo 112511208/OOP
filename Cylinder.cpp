@@ -33,7 +33,7 @@ ostream & operator<<(ostream & out, Cylinder & cldr)
   out<<"Circumference: "<<cldr.Circumference()<<endl;
 	out<<"SurfaceArea: "<<cldr.SurfaceArea()<<endl;
 	out<<"Volume: "<<cldr.Volume()<<endl;
-    
+	return out;
 }
 
 # endif
